@@ -1,0 +1,15 @@
+﻿<Window x:Class="SafeBase64EncodeDecode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SafeBase64EncodeDecode"
+        mc:Ignorable="d"
+        Title="Safe Base64 Encode/Decode" Height="486" Width="779">
+    <Grid Margin="0,0,10,14">
+        <Button x:Name="Encode" Content="Encode" HorizontalAlignment="Left" Margin="35,10,0,0" VerticalAlignment="Top" Click="Encode_Click"/>
+        <Button x:Name="Decode" Content="Decode" HorizontalAlignment="Left" Margin="83,10,0,0" VerticalAlignment="Top" Click="Decode_Click"/>
+        <TextBox x:Name="Result" Margin="30,40,30,30" Text="fred:fred" TextWrapping="Wrap" VerticalAlignment="Top" Height="360"/>
+        <Label x:Name="Status" Content="" HorizontalAlignment="Left" Margin="133,7,0,0" VerticalAlignment="Top" Width="457"/>
+    </Grid>
+</Window>
